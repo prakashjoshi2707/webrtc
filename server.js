@@ -4,7 +4,7 @@
 ********************************************************************/
 /* library for websocket */
 var WebSocketServer = require('ws').Server;
-var wss = new WebSocketServer({host:"192.168.0.102",port: 8887 });
+var wss = new WebSocketServer({port: 8887 });
 /* to store the connection details */
 var users = {};
 /* to store the user list details */
